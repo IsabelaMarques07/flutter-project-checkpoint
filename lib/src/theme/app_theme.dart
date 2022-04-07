@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 
 const _primarySwatch = Colors.cyan;
-const _appBarColor = Colors.black;
-const _appBarTextColor = Colors.cyan;
-const _appBarIconColor = Colors.cyan;
+const _appBarColor =Colors.cyan;
+const _appBarTextColor = Colors.black;
+const _appBarIconColor = Colors.black;
 
 const _inputBorderColor = Colors.black;
 
@@ -17,7 +17,7 @@ ThemeData lightTheme = ThemeData(
     ),
   ),
   appBarTheme: const AppBarTheme(
-    titleTextStyle: TextStyle(color: _appBarColor, fontSize: 25),
+    titleTextStyle: TextStyle(color: _appBarTextColor, fontSize: 25),
     backgroundColor: _appBarColor,
     iconTheme: IconThemeData(color: _appBarIconColor),
   ),
@@ -32,8 +32,8 @@ ThemeData darkTheme = ThemeData(
   primarySwatch: _primarySwatch,
   elevatedButtonTheme: ElevatedButtonThemeData(
     style: ElevatedButton.styleFrom(
-      primary: Colors.black,
-      onPrimary: Colors.cyan,
+      primary: Colors.cyan,
+      onPrimary: Colors.black,
     ),
   ),
   appBarTheme: const AppBarTheme(
