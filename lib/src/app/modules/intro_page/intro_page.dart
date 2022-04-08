@@ -21,9 +21,9 @@ class IntroPage extends StatelessWidget{
           ),
           
           const SizedBox(height: 15),
-          StandardInput(label: 'Primeiro input'),
+          StandardInput(label: 'Email'),
           const SizedBox(height: 15),
-          StandardInput(label: 'Segudno input'),
+          StandardInput(label: 'Senha'),
           const SizedBox(height: 30),
           Text(
             'Isabela\nRM86386\n3SIR',
