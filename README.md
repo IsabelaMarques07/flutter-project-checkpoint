@@ -1,5 +1,5 @@
 # Widgets e construção de tela em flutter
-Projeto para a entrega da primera avaliação da disciplina de Desenvolvimento Cross Plataforme.
+Projeto para a entrega da primera avaliação da disciplina de Desenvolvimento Cross Plataform.
 Avaliação de uso de Widget e construção de telas básica com a linguagem.
 
 ### 🛠 Tecnologia utilizada:
